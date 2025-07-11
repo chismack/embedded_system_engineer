@@ -1,0 +1,21 @@
+PREDIKSI PERFORMA MOTOR
+------------------------
+
+Tanggal Analisis     : 11 Juli 2025
+Periode Data         : 1 Juni 2025 - 30 Juni 2025
+Total Data           : 43200 (1 data per menit)
+
+Kriteria Motor Normal:
+- Voltage     : 219 V - 221 V
+- Temperature : 24 C - 25 C
+
+Hasil Analisis:
+----------------
+Jumlah Kondisi NORMAL    : 34046 data (78.81%)
+Jumlah Kondisi ABNORMAL  : 9154 data (21.19%)
+
+Estimasi Penurunan Lifetime:
+----------------------------
+Sesuai asumsi bahwa:
+- Setiap 10% data abnormal berkontribusi pada 10% penurunan lifetime
+
