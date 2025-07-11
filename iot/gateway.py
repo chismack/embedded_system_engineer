@@ -65,7 +65,7 @@ cloud_client.tls_set(
     ciphers=None
 )
 
-cloud_client.connect("8b4d3306d8434236b504cdd8b3d4dcec.s1.eu.hivemq.cloud", 8883)
+cloud_client.connect("942ef292b9954450bfe231590d100cf3.s1.eu.hivemq.cloud", 8883)
 
 # Start MQTT Loop
 cloud_client.loop_start()
