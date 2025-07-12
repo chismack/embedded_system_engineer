@@ -9,7 +9,7 @@
 - Topic: `DATA/LOCAL/SENSOR/PANEL_1`
 
 ### MQTT Cloud (Gateway → Server)
-- Broker: `5de3065f0ebb48d986135895199984d6.s2.eu.hivemq.cloud`
+- Broker: `942ef292b9954450bfe231590d100cf3.s1.eu.hivemq.cloud`
 - Port: `8883`
 - Username: `embedded_test`
 - Password: `Ravelware1402`
