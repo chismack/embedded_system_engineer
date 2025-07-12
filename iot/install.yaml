@@ -1,3 +1,26 @@
-### 1. Instalasi Library
-pip install paho-mqtt mysql-connector-python tabulate
-pip install paho-mqtt==1.6.1 
+
+---
+
+## ⚙️ Konfigurasi MQTT
+
+### MQTT Lokal (Node → Gateway)
+- Broker: `localhost`
+- Port: `1883`
+- Topic: `DATA/LOCAL/SENSOR/PANEL_1`
+
+### MQTT Cloud (Gateway → Server)
+- Broker: `5de3065f0ebb48d986135895199984d6.s2.eu.hivemq.cloud`
+- Port: `8883`
+- Username: `embedded_test`
+- Password: `Ravelware1402`
+- Topic: `DATA/ONLINE/SENSOR/PANEL_1`
+
+---
+
+## 🗃️ Database
+
+- **Engine**: MySQL
+- **Tabel**: `sensor_data`
+- **Kolom**: `voltage`, `current`, `power`, `temperature`, `cooler_status`, `timestamp`
+
+> Diperlukan akses MySQL aktif (localhost) dengan kredensial disesuaikan di `gateway.py`.
